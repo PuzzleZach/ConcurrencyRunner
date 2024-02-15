@@ -1,0 +1,7 @@
+Package: concurrencpp
+Version: 0.1.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8376bb00a113d9dd7c7182a98fb722dd82f4bad0a3ee43f63e1834bb60af0465
+Description: concurrencpp is a tasking library for C++ allowing developers to write highly concurrent applications easily and safely by using tasks, executors and coroutines.

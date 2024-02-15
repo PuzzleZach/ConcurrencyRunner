@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/concurrencpp-x64-windows-0.1.7-bcf523f6-8d8f-47c2-8876-67fff3df5eb4",
+  "name": "concurrencpp:x64-windows@0.1.7 8376bb00a113d9dd7c7182a98fb722dd82f4bad0a3ee43f63e1834bb60af0465",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-ac02a9f660977426b8ec6392919fbb1d51b10998"
+    ],
+    "created": "2024-02-15T20:01:31Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "concurrencpp",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.1.7",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@5eb63527141d7d261b6e99945f81bf43e293cc8b",
+      "homepage": "https://github.com/David-Haim/concurrencpp/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "concurrencpp is a tasking library for C++ allowing developers to write highly concurrent applications easily and safely by using tasks, executors and coroutines.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "concurrencpp:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "8376bb00a113d9dd7c7182a98fb722dd82f4bad0a3ee43f63e1834bb60af0465",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "David-Haim/concurrencpp",
+      "downloadLocation": "git+https://github.com/David-Haim/concurrencpp@v.0.1.7",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b87a6bd0593d6a7d35f911a0a9835e1afe416aa25d06e4d448789617c94ec2faeb5df07d68d5ccc7e986009f09016f90ef57016b1aabe567996d3ad9816add4c"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/Baile/AppData/Local/vcpkg/registries/git-trees/5eb63527141d7d261b6e99945f81bf43e293cc8b/fix-include-path.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "203df1d20e92b4311a449a912a5cd453a943b995b2ce4c35ce861a4f9a61aa9b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/Baile/AppData/Local/vcpkg/registries/git-trees/5eb63527141d7d261b6e99945f81bf43e293cc8b/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7028650193cab6f2e07a588bc7675dfc89e3d00b156e3f891d84f6bd8dcbb95c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/Baile/AppData/Local/vcpkg/registries/git-trees/5eb63527141d7d261b6e99945f81bf43e293cc8b/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0548aa727de2aaf3c805ad5f8974cd65ca9f32d503286ab4509e9550f7c93fc9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/concurrencpp.dir
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/Baile/source/repos/ConcurrenyTest/vcpkg_installed/vcpkg/blds/concurrencpp/x64-windows-rel/CMakeFiles/install/local.dir
